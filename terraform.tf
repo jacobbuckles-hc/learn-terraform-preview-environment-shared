@@ -1,9 +1,9 @@
 terraform {
   cloud {
     hostname     = "app.terraform.io"
-    organization = "hashicorp-training"
+    organization = "jacobbuckles-org"
     workspaces {
-      name = "hcup-be-shared"
+      name = "hcup-shared-resources"
     }
   }
 
